@@ -1,8 +1,11 @@
 import React from 'react'
+import { Mesh } from 'three'
 
 const Computers = () => {
   return (
-    <div>Computers</div>
+    <mesh>
+      
+    </mesh>
   )
 }
 
