@@ -1,0 +1,4 @@
+to change the information go to constants (index.js)
+for logo use logo.com
+for 3D models use sketch-fab
+for the Service card icons can got to the index.js which is in assets and select the logo which you want to attach in actual index.js which is in the constants and display it to the main page .
