@@ -9,3 +9,5 @@ Currently, two official plugins are available:
 40.39 Navbar Completed Date 14-05
 
 1.39.10 Date:20-05
+
+for the live url just copy the Github div one more time just to add the deployed version of your project [from the work component]
