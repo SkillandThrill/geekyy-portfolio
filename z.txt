@@ -16,3 +16,6 @@ getting ahead with creating the experience section, for that imported informatio
 
 
 started creating the Tech section of the 3D balls which will look good on the website..to get things start of we are importing BallCanvas, to develope these balls using threeJS and react Three Fiber..replicated the canvas component from Computer.jsx 
+
+
+created the BallCanvas component with frameloop Suspense and OrbitControls..just added the balls with the imgurl having icons and to finalise and export the component instead Ball used the BallCanvas component
