@@ -4,4 +4,10 @@ for 3D models use sketch-fab
 for the Service card icons can got to the index.js which is in assets and select the logo which you want to attach in actual index.js which is in the constants and display it to the main page .
 
 
-[higher order component] creating a  new folder into the src folder called as HOC,to use these (hoc) higher order components in react we can wrap our export default about with the SectionWrapper...
+finishing the about page with the final component for side padding and animations which is [higher order component] creating a  new folder into the src folder called as HOC,to use these (hoc) higher order components in react we can wrap our export default about with the SectionWrapper...wrapping entire components with the assigned id's and adding animations to them..
+
+Date: 20-05
+1:23:23 --- started work experience!
+
+
+getting ahead with creating the experience section, for that imported information from the constants and wrapping the experience component around SectionWrapper.. created new ExperienceCard in that with the VerticalTimelineElement added the style elements..
