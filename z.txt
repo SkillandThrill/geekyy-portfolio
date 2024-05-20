@@ -2,6 +2,7 @@ to change the information go to constants (index.js)
 for logo use logo.com
 for 3D models use sketch-fab
 for the Service card icons can got to the index.js which is in assets and select the logo which you want to attach in actual index.js which is in the constants and display it to the main page .
+change the information related to experience in the index.js from constants, change the icons as well..
 
 
 finishing the about page with the final component for side padding and animations which is [higher order component] creating a  new folder into the src folder called as HOC,to use these (hoc) higher order components in react we can wrap our export default about with the SectionWrapper...wrapping entire components with the assigned id's and adding animations to them..
@@ -10,4 +11,8 @@ Date: 20-05
 1:23:23 --- started work experience!
 
 
-getting ahead with creating the experience section, for that imported information from the constants and wrapping the experience component around SectionWrapper.. created new ExperienceCard in that with the VerticalTimelineElement added the style elements..
+getting ahead with creating the experience section, for that imported information from the constants and wrapping the experience component around SectionWrapper.. created new ExperienceCard in that with the VerticalTimelineElement added the style elements..using unordered list and ordered list added the company related information and work that has been done in the exquisite organization..finally done with the creating the Experience Section..
+
+
+
+started creating the Tech section of the 3D balls which will look good on the website..to get things start of we are importing BallCanvas, to develope these balls using threeJS and react Three Fiber..replicated the canvas component from Computer.jsx 
