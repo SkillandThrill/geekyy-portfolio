@@ -1,8 +1,9 @@
 import {
     mobile,
     backend,
-    creator,
+    // creator,
     web,
+    blockchain,
     javascript,
     typescript,
     html,
@@ -15,11 +16,13 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
+    credence,
+    // starbucks,
+    // tesla,
+    // shopify,
+    // crm,
+    vrooms,
+    // carrent,
     jobit,
     tripguide,
     threejs,
@@ -44,17 +47,17 @@ const services = [{
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "MERN Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "React Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
-        icon: creator,
-    },
+        title: "Blockchain Developer",
+        icon: blockchain,
+    }
 ];
 
 const technologies = [{
@@ -112,57 +115,57 @@ const technologies = [{
 ];
 
 const experiences = [{
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Customer Service Associate",
+        company_name: "Credence Resource Management",
+        icon: credence,
+        iconBg: "#fff",
+        date: "Sept 14 2022 - Feb 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Responsible for managing a portfolio of overdue accounts and negotiating payment arrangements with customers.",
+            "Utilized CRM tools to track customer interactions and update account information.",
+            "Met monthly targets for debt collection while maintaining compliance with regulations and company policies.",
+
         ],
     },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "React Native Developer",
+    //     company_name: "Tesla",
+    //     icon: tesla,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2021 - Feb 2022",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [{
@@ -189,14 +192,14 @@ const testimonials = [{
 ];
 
 const projects = [{
-        name: "Car Rent",
-        description: "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        name: "V-Rooms",
+        description: "Web-based platform that allows users to communicate through video conferences, providing an convenient and efficient solution for quick and important meeting anywhere anytime.",
         tags: [{
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "next-js",
                 color: "green-text-gradient",
             },
             {
@@ -204,8 +207,9 @@ const projects = [{
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: vrooms,
+        source_code_link: "https://github.com/GauravR02/geekyy-zoom-dev",
+        live_demo: "https://geekyy-v-rooms-9frrncstf-gauravr02s-projects.vercel.app/",
     },
     {
         name: "Job IT",

@@ -3,12 +3,13 @@ import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
 import { github } from '../assets'
+import { idea_project } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 
 
-const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
+const ProjectCard =({index,name,description,tags,image,source_code_link,live_demo})=>{
   return(
     <motion.div variants={fadeIn("up","spring",index * 0.5,0.75)}>
       <Tilt 
@@ -26,7 +27,7 @@ const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
             className='w-full h-full object-cover rounded-2xl'
             />
 
-            <div className='absolute inset-0 flex justify-end m-3 card-img_hover'> 
+            <div className='absolute inset-0 flex justify-end m-3 card-img_hover '> 
               <div 
               onClick={()=> window.open(source_code_link,"_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -37,11 +38,21 @@ const ProjectCard =({index,name,description,tags,image,source_code_link})=>{
                 className='w-1/2 h-1/2 object-contain'
                 />
               </div>
+              <div 
+              onClick={()=> window.open(live_demo,"_blank")}
+              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer gap-2'
+              >
+                <img
+                src={idea_project}
+                alt="idea_project"
+                className='object-contain rounded-[25px] p-1'
+                />
+              </div>
             </div>
           </div>
 
           <div className='mt-5 '>
-            <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+            <h3 className='text-white font-bold text-[24px]'>{name}</h3>  
             <p className='mt-2 text-secondary text-[14px]'>{description}</p>
           </div>
 

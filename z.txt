@@ -20,4 +20,11 @@ started creating the Tech section of the 3D balls which will look good on the we
 
 created the BallCanvas component with frame-loop Suspense and OrbitControls..just added the balls with the img-url having icons and to finalize and export the component instead Ball used the BallCanvas component..added different properties of MeshStandardMaterial and decal to finish things up with BallCanvas..
 
-started creating the work component which will have all the work that has been done till now .. it includes the links, images and description of the projects..added project images and with that embedded the github link with corner img tag with props like( source_code_link) with the onClick property..added extra #tags for used technologies within the project
+started creating the work component which will have all the work that has been done till now .. it includes the links, images and description of the projects..added project images and with that embedded the github link with corner img tag with props like( source_code_link) with the onClick property..added extra #tags for used technologies within the project, and that's it for this component
+
+
+2.03.47
+
+
+today - 01-06
+added the all the assets in constants about the experience and project.. 

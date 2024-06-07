@@ -3,6 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import blockchain from "./blockchain.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -25,10 +26,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import credence from "./company/credence.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import vrooms from "./vrooms.png"
+import vroom_logo from "./vroom_logo.svg"
+import idea_project from "./idea_project.png"
 
 export {
     logo,
@@ -36,6 +41,7 @@ export {
     creator,
     mobile,
     web,
+    blockchain,
     github,
     menu,
     close,
@@ -56,7 +62,11 @@ export {
     shopify,
     starbucks,
     tesla,
+    credence,
     carrent,
     jobit,
     tripguide,
+    vrooms,
+    vroom_logo,
+    idea_project,
 };
