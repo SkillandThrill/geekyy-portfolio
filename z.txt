@@ -30,4 +30,4 @@ today - 01-06
 added the all the assets in constants about the experience and project.. 
 
 
-creating the contact page with importing couple of packages such as emailjs and framer motion also we are adding the 3d earthCanvas side by side our contact page as it looks good as design then we created two useState for loading state and to get the information we created the empty object, now we are moving forward to create the skeletal of the contact page such as form.. crated the form and added labels and inputs and a textarea for the message.. adding the floating Earth canvas below the first motion.div and creating the new motion for the model..
+adding the floating Earth canvas below the first motion.div and creating the new motion for the model..we have imported the canvas and loader utilities from the loader component using the react Suspense to add the OrbitControls and other properties imported the earth model and into the new earthCanvas and added the remaining functionalities GLTF hooks ton ensure the model gets imported.. the last thing which is going to be added is the stars to give it a look like universe..
