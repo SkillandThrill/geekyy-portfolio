@@ -8,8 +8,9 @@ import { SectionWrapper} from '../hoc'
 import { slideIn } from '../utils/motion'
 
 
+
 const Contact = () => {
-  const formRef = useRef();
+  const formRef = useRef(null);
   const [form,setForm] = useState({
     name:'',
     email:'',
@@ -18,9 +19,47 @@ const Contact = () => {
 
   const [loading,setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const {target} = e;
+    const {name,value} =target;
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form,[name]:value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true)
+
+    emailjs.send(
+      'service_oizncc8',
+      'template_38sll0v',
+      {
+        from_name:form.name,
+        to_name: 'Gaurav',
+        from_email:form.email,
+        to_email:'codergaurav02@gmail.com',
+        message:form.message
+      },
+      'TFOstz28vF7wcuQsm'
+    )
+    .then(() =>{
+      setLoading(false);
+      alert('Thank You. I will get back to you as soon as possible.');
+
+      setForm({
+        name:'',
+        email:'',
+        message:'',
+      })
+    },(error) =>{
+      setLoading(false)
+
+      console.log(error)
+
+      alert('Something went wrong.')
+    }
+  )
+  }
 
 
 
