@@ -1,15 +1,15 @@
 import {
     mobile,
     backend,
-    // creator,
+    creator,
     web,
-    blockchain,
+    // blockchain,
     javascript,
     typescript,
     html,
     css,
     reactjs,
-    redux,
+    // redux,
     tailwind,
     nodejs,
     mongodb,
@@ -23,9 +23,14 @@ import {
     // crm,
     vrooms,
     // carrent,
-    jobit,
+    // jobit,
+    projet2,
     tripguide,
     threejs,
+    Namrata,
+    siddhant,
+    prasad,
+
 } from "../assets";
 
 export const navLinks = [{
@@ -55,8 +60,8 @@ const services = [{
         icon: backend,
     },
     {
-        title: "Blockchain Developer",
-        icon: blockchain,
+        title: "Backend Developer",
+        icon: creator,
     }
 ];
 
@@ -80,10 +85,10 @@ const technologies = [{
         name: "React JS",
         icon: reactjs,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
+    // {
+    //     name: "Redux Toolkit",
+    //     icon: redux,
+    // },
     {
         name: "Tailwind CSS",
         icon: tailwind,
@@ -169,25 +174,25 @@ const experiences = [{
 ];
 
 const testimonials = [{
-        testimonial: "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        testimonial: "He always had utilized his time and energy into the work for the better output.",
+        name: "Namrata",
+        designation: "Associate",
+        company: "Credence",
+        image: Namrata,
     },
     {
-        testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        testimonial: "I've never met a hard working and dedicated person who truly cares about preciseness in work",
+        name: "Siddhant",
+        designation: "Manager",
+        company: "Credence",
+        image: siddhant,
     },
     {
-        testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        testimonial: "I enjoyed working with him as a colleague",
+        name: "Prasad",
+        designation: "CS Excutive",
+        company: "Credence",
+        image: prasad,
     },
 ];
 
@@ -212,24 +217,26 @@ const projects = [{
         live_demo: "https://geekyy-v-rooms-9frrncstf-gauravr02s-projects.vercel.app/",
     },
     {
-        name: "Job IT",
-        description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        name: "Todos-list-",
+        description: "Web application that enables users to create todos in day-to-day life, this webapp could be use in adding the task editing them and deleting them after the task is done",
         tags: [{
-                name: "react",
+                name: "Next",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Tailwind",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "DaisyUI",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: projet2,
+        source_code_link: "https://github.com/GauravR02/todo-list-crud",
+        live_demo: "https://x.com/GauravR_0203/status/1801700656182661158",
     },
+
     {
         name: "Trip Guide",
         description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -249,6 +256,7 @@ const projects = [{
         image: tripguide,
         source_code_link: "https://github.com/",
     },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };

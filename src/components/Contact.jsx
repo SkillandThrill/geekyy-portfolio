@@ -6,6 +6,7 @@ import {styles} from '../styles'
 import {EarthCanvas} from './canvas'
 import { SectionWrapper} from '../hoc'
 import { slideIn } from '../utils/motion'
+import { github } from '../assets'
 
 
 
@@ -115,6 +116,7 @@ const Contact = () => {
             >
               {loading ? 'Sending...' : 'Send'}
             </button>
+            
           </form>
       </motion.div>
 
@@ -126,7 +128,39 @@ const Contact = () => {
         <EarthCanvas/>
 
       </motion.div>
+{/* 
+    <motion.div
+    variants={slideIn('down',"tween" , 0.2, 1)}  >
+       <div className="flex space-x-4">
+            <a 
+                href="https://github.com/yourusername" 
+                className="btn github bg-gray-800 text-white py-2 px-4 rounded" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                GitHub
+            </a>
+            <a 
+                href="https://twitter.com/yourusername" 
+                className="btn twitter bg-blue-500 text-white py-2 px-4 rounded" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                Twitter
+            </a>
+            <a 
+                href="https://www.linkedin.com/in/yourusername" 
+                className="btn linkedin bg-blue-700 text-white py-2 px-4 rounded" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                LinkedIn
+            </a>
+        </div>
+    </motion.div> */}
+    
     </div>
+
   )
 }
 
