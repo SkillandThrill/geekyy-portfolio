@@ -11,7 +11,7 @@ import { github } from '../assets'
 
 
 const Contact = () => {
-  const formRef = useRef(null);
+  const formRef = useRef();
   const [form,setForm] = useState({
     name:'',
     email:'',
@@ -24,7 +24,7 @@ const Contact = () => {
     const {target} = e;
     const {name,value} =target;
 
-    setForm({ ...form,[name]:value})
+    setForm({ ...form,[name]:value,})
   }
 
   const handleSubmit = (e) => {
