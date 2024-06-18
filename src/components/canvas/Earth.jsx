@@ -2,7 +2,7 @@ import { Suspense } from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Preload,useGLTF } from "@react-three/drei"
 import CanvasLoader from '../Loader'
-import { color } from "framer-motion"
+import React from "react"
 
 
 
@@ -43,9 +43,9 @@ const EarthCanvas = () => {
           minPolarAngle={Math.PI/2}
         />
         <Earth />
-        <Preload/>
       </Suspense>
-      
+
+       <Preload all/>
     </Canvas>
   )
 }
