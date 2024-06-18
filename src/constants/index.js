@@ -15,7 +15,7 @@ import {
     mongodb,
     git,
     figma,
-    docker,
+    // docker,
     credence,
     // starbucks,
     // tesla,
@@ -113,10 +113,10 @@ const technologies = [{
         name: "figma",
         icon: figma,
     },
-    {
-        name: "docker",
-        icon: docker,
-    },
+    // {
+    //     name: "docker",
+    //     icon: docker,
+    // },
 ];
 
 const experiences = [{

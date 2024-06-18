@@ -1,51 +1,51 @@
-import React,{Suspense} from 'react'
-import { Canvas } from '@react-three/fiber'
+
+import React from "react";
+import { Canvas } from "@react-three/fiber";
 import {
-  Decal, Float, Preload, OrbitControls, useTexture
-} from '@react-three/drei'
-
-import CanvasLoader from '../Loader'
-
-
+  Decal,
+  Float,
+  OrbitControls,
+  Preload,
+  useTexture,
+} from "@react-three/drei";
+import { Suspense, useState } from "react";
+import CanvasLoader from "../Loader";
 
 const Ball = (props) => {
-  const [decal] = useTexture([props.imgUrl])
+  const [decal] = useTexture([props.imgUrl]);
   return (
-    <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
-      <ambientLight intensity={5}/>
-      <directionalLight position={[0,0,0.5]}/>
+    <Float>
+      <ambientLight intensity={0.25} floatIntensity={2} speed={1.75} />
+      <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
-        <icosahedronGeometry args={[1,1]}/>
+        <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
           color="#fff8eb"
+          polygonOffset
           polygonOffsetFactor={-5}
           flatShading
         />
         <Decal
-        position={[0,0,1]}
-        rotation={[2 * Math.PI, 0, 6.25]}
-        map={decal}
+          rotation={[2 * Math.PI, 0, 6.25]}
+          position={[0, 0, 1]}
+          map={decal}
         />
       </mesh>
     </Float>
-  )
-}
+  );
+};
 
-const BallCanvas = ({icon}) =>{
-  return(
-
-    <Canvas
-      frameloop='demand'
-      gl={{ preserveDrawingBuffer: true }}
-    >
+const BallCanvas = ({ icon }) => {
+  return (
+    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false}/>
-        <Ball imgUrl={icon}/>
+        <OrbitControls enableZoom={false} />
+        <Ball imgUrl={icon} />
       </Suspense>
-
       <Preload all />
     </Canvas>
-  )
-}
+  );
+  `your text`;
+};
 
-export default BallCanvas
+export default BallCanvas;

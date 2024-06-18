@@ -6,12 +6,12 @@ import { github } from '../assets'
 import { idea_project } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
-import { fadeIn, textVariant } from '../utils/motion'
+import {  fadeIn, textVariant } from '../utils/motion'
 
 
 const ProjectCard =({index,name,description,tags,image,source_code_link,live_demo})=>{
   return(
-    <motion.div variants={fadeIn("up","spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up","spring", index * 1 , 1)}>
       <Tilt 
       options={{
         max:45,
@@ -85,7 +85,7 @@ const Works = () => {
 
     <div className='w-full flex '>
       <motion.p
-      variants={fadeIn("","", 0.1, 1)}
+      variants={fadeIn("","", 1, 1)}
       className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos in it. It reflects my ability to solve complex problems, work with different technologies, and manage project effectively.
