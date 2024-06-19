@@ -1,5 +1,6 @@
 import {
     mobile,
+    expense,
     backend,
     creator,
     web,
@@ -198,37 +199,37 @@ const testimonials = [{
 
 const projects = [{
         name: "V-Rooms",
-        description: "Web-based platform that allows users to communicate through video conferences, providing an convenient and efficient solution for quick and important meeting anywhere anytime.",
+        description: "The V-rooms Application is a comprehensive web meeting solution designed to facilitate seamless virtual meetings and video conferencing. Built using Next.js, React, and Tailwind CSS, this application leverages the GetStream API for high-quality video streaming and ClerkAuth for secure authentication. The app is tailored to provide users with a robust and user-friendly platform for hosting and joining virtual meetings.",
         tags: [{
-                name: "react",
+                name: "Next-JS",
                 color: "blue-text-gradient",
             },
             {
-                name: "next-js",
+                name: "React-JS",
                 color: "green-text-gradient",
             },
             {
-                name: "tailwind",
+                name: "TailwindCSS",
                 color: "pink-text-gradient",
             },
         ],
         image: vrooms,
         source_code_link: "https://github.com/GauravR02/geekyy-zoom-dev",
-        live_demo: "https://geekyy-v-rooms-9frrncstf-gauravr02s-projects.vercel.app/",
+        live_demo: "https://geekyy-v-rooms-dev-gauravr02s-projects.vercel.app",
     },
     {
         name: "Todos-list-",
-        description: "Web application that enables users to create todos in day-to-day life, this webapp could be use in adding the task editing them and deleting them after the task is done",
+        description: "The Todo List Application is a dynamic and responsive task management tool built using Next.js, React, and Tailwind CSS. It provides a seamless and efficient way to manage your daily tasks, offering full CRUD (Create, Read, Update, Delete) functionality.This application ensures that users can easily keep track of their tasks, update their progress, and maintain an organized workflow.",
         tags: [{
-                name: "Next",
+                name: "Next-JS",
                 color: "blue-text-gradient",
             },
             {
-                name: "Tailwind",
+                name: "TailwindCSS",
                 color: "green-text-gradient",
             },
             {
-                name: "DaisyUI",
+                name: "Daisy-UI",
                 color: "pink-text-gradient",
             },
         ],
@@ -238,23 +239,23 @@ const projects = [{
     },
 
     {
-        name: "Trip Guide",
-        description: "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        name: "Budget-Tracker",
+        description: "A Budget tracker application includes a dashboard page. Creating a transaction is easy with the simple form and category options, history section which is able to show the transactions month and year wise to locate the exact transaction  and add the expenses category wise. Transaction page shows the logs and on manage page users can switch the currencies ",
         tags: [{
-                name: "nextjs",
+                name: "Prisma",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "SQLite",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Tanstack-Query",
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: expense,
+        source_code_link: "https://github.com/GauravR02/budget-tracker",
     },
 
 ];

@@ -38,7 +38,7 @@ import projet2 from './project2.png';
 import siddhant from './siddhant.png';
 import Namrata from './namrata.png';
 import prasad from './prasad.png';
-
+import expense from './expense.png'
 
 
 export {
@@ -78,6 +78,7 @@ export {
     projet2,
     siddhant,
     Namrata,
-    prasad
+    prasad,
+    expense
 
 };
