@@ -31,10 +31,10 @@ import credence from "./company/credence.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import vrooms from "./vrooms.png";
+import vroom from './vroom.png'
 import vroom_logo from "./vroom_logo.svg";
 import idea_project from "./idea_project.png";
-import projet2 from './project2.png';
+import todo from './todo.png';
 import siddhant from './siddhant.png';
 import Namrata from './namrata.png';
 import prasad from './prasad.png';
@@ -72,10 +72,10 @@ export {
     carrent,
     jobit,
     tripguide,
-    vrooms,
+    vroom,
     vroom_logo,
     idea_project,
-    projet2,
+    todo,
     siddhant,
     Namrata,
     prasad,
