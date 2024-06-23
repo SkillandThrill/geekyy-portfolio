@@ -11,7 +11,7 @@ import { github } from '../assets'
 
 
 const Contact = () => {
-  const formRef = useRef(null);
+  const formRef = useRef();
   const [form,setForm] = useState({
     name:'',
     email:'',
@@ -24,8 +24,8 @@ const Contact = () => {
     const {target} = e;
     const {name,value} =target;
 
-    setForm({ ...form,[name]:value,})
-  }
+    setForm({ ...form,[name]:value,});
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -65,9 +65,9 @@ const Contact = () => {
 
 
   return (
-    <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
-      variants={slideIn('left',"tween", 1, 1)}
+      variants={slideIn('left',"tween", 0.2, 1)}
       className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
@@ -87,7 +87,7 @@ const Contact = () => {
                 placeholder='What is your name'
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
               />
-            </label>
+            </label>  
             <label className='flex flex-col'>
               <span className='text-white font-medium mb-4'>Your Email</span>
               <input 
@@ -122,7 +122,7 @@ const Contact = () => {
 
 
       <motion.div
-        variants={slideIn('right', "tween", 1, 1)}
+        variants={slideIn('right', "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] '
       >
         <EarthCanvas/>

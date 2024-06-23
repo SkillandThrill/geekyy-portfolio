@@ -256,7 +256,7 @@ const projects = [{
         ],
         image: expense,
         source_code_link: "https://github.com/GauravR02/budget-tracker",
-        live_demo: "",
+        // live_demo: "",
     },
 
 ];
